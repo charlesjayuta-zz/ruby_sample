@@ -1,0 +1,18 @@
+.link {
+  color: #0275d8;
+  &:hover,&:focus {
+    color: #025aa5;
+    text-decoration: underline;
+  }
+}
+
+.image-row {
+  max-height: 400px;
+}
+
+body.modal-open {
+  overflow: auto;
+  &[style] {
+    padding-right: 0 !important;
+  }
+}

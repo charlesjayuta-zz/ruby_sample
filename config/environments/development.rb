@@ -1,5 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
+  config.webpacker.check_yarn_integrity = true
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
@@ -30,6 +31,14 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
+  config.action_mailer.smtp_settings = {
+      address: 'smtp.mailgun.org',
+      port: 587,
+      user_name: 'postmaster@mg.charlesjay.com',
+      password: 'a60a8836969b39bd4e3e5afaf83954cb',
+      authentication: :login
+  }
+  config.action_mailer.perform_deliveries = true
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log

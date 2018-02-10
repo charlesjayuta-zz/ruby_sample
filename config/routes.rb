@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  
+
   root to: "home#index"
-  
+
   resources :games do
+    collection do
+      post :like
+    end
   end
 end

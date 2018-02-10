@@ -1,3 +1,14 @@
+## Notes
+Migrate db
+
+	bundle exec rails db:migrate
+
+Tests
+
+	yarn test
+	
+	rspec spec --format documentation
+
 # App Team Code Challenge
 
 ## Classic Video Game Web App

@@ -1,0 +1,42 @@
+{
+  "name": "videogameapp",
+  "version": "1.0.0",
+  "description": "This coding challenge will test your ability to modify and add onto a small web application.  You can use any documentation, Google, Stack Overflow and any IDE.  Rails and Sqlite have already been configured with some stubbed out code.  You can use third party libraries such as ActiveRecord, JQuery, AngularJS, Ruby Gems, etc.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --config spec/javascripts/jest.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplifi/app_team_code_challenge_charlesjayuta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplifi/app_team_code_challenge_charlesjayuta/issues"
+  },
+  "homepage": "https://github.com/simplifi/app_team_code_challenge_charlesjayuta#readme",
+  "dependencies": {
+    "@rails/webpacker": "^3.2.1",
+    "axios": "^0.17.1",
+    "bootstrap-vue": "^2.0.0-rc.1",
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.20.1",
+    "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.11",
+    "babel-jest": "^22.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.2.2",
+    "vue-jest": "^2.0.1",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
