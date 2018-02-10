@@ -1,6 +1,7 @@
 ## Notes
-Migrate db
+Install
 
+	yarn install
 	bundle exec rails db:migrate
 
 Tests
